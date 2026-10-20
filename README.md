@@ -1,70 +1,38 @@
-<style>
-  /* 1. Animated Background Container */
-  .animated-bg {
-    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e, #0f0c29);
-    background-size: 400% 400%;
-    animation: gradientBG 12s ease infinite;
-    padding: 40px 20px;
-    border-radius: 20px;
-    border: 1px solid #302b63;
-    text-align: center;
-    margin-bottom: 30px;
-  }
+<div align="center">
+  <!-- ANIMATED BACKGROUND CONTAINER (Using a moving GIF) -->
+  <div style="background-image: url('https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif'); background-size: cover; background-position: center; padding: 50px 20px; border-radius: 20px; border: 2px solid #007bff; box-shadow: 0px 0px 30px rgba(0, 123, 255, 0.5);">
+    
+    <!-- YOUR PHOTO (Now a circle) -->
+    <img src="profile.jpg" alt="Sntayehu Aemayehu" width="250" style="border-radius: 50%; border: 5px solid #00D2FF; box-shadow: 0px 0px 20px #00D2FF; background: #fff;" />
 
-  @keyframes gradientBG {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-  }
+    <!-- ANIMATED TYPING TEXT -->
+    <h1 align="center" style="margin-top: 20px;">
+      <a href="https://git.io/typing-svg">
+        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=32&pause=1000&color=00D2FF&center=true&vCenter=true&width=800&lines=Hi+there,+I'm+Sntayehu+Aemayehu+👋;Software+Developer+💻;Tech+Enthusiast+🚀;Always+Learning+📚" alt="Typing SVG" />
+      </a>
+    </h1>
 
-  /* 2. Pulsing Glow for Photo */
-  .profile-pic {
-    width: 260px; 
-    height: 260px; 
-    border-radius: 50%; 
-    object-fit: cover; 
-    border: 5px solid #007bff;
-    background: #fff;
-    animation: pulse-glow 2.5s infinite;
-  }
+    <!-- DYNAMIC BADGES -->
+    <p align="center"> 
+      <img src="https://komarev.com/ghpvc/?username=SntayehuAemayehu&label=Profile%20views&color=007bff&style=flat-square" alt="Profile Views" /> 
+      <a href="https://github.com/SntayehuAemayehu?tab=followers"><img src="https://img.shields.io/github/followers/SntayehuAemayehu?label=Followers&style=flat-square&color=007bff" alt="GitHub Followers"></a>
+    </p>
 
-  @keyframes pulse-glow {
-    0% { box-shadow: 0 0 0 0 rgba(0, 123, 255, 0.7); transform: scale(1); }
-    50% { box-shadow: 0 0 0 25px rgba(0, 123, 255, 0); transform: scale(1.05); }
-    100% { box-shadow: 0 0 0 0 rgba(0, 123, 255, 0); transform: scale(1); }
-  }
-</style>
+    <!-- CONNECT BUTTONS -->
+    <p align="center">
+      <a href="https://linkedin.com/in/YOUR-LINKEDIN-USERNAME" target="_blank">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+      </a>
+      <a href="mailto:your.email@example.com" target="_blank">
+        <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+      </a>
+      <a href="https://twitter.com/YOUR-TWITTER" target="_blank">
+        <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+      </a>
+    </p>
 
-<!-- START OF ANIMATED SECTION -->
-<div class="animated-bg">
-  
-  <img src="profile.jpg" alt="Sntayehu Aemayehu" class="profile-pic" />
-
-  <h1 align="center" style="margin-top: 20px;">
-    <a href="https://git.io/typing-svg">
-      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=32&pause=1000&color=00D2FF&center=true&vCenter=true&width=800&lines=Hi+there,+I'm+Sntayehu+Aemayehu+👋;Software+Developer+💻;Tech+Enthusiast+🚀;Always+Learning+📚" alt="Typing SVG" />
-    </a>
-  </h1>
-
-  <p align="center"> 
-    <img src="https://komarev.com/ghpvc/?username=SntayehuAemayehu&label=Profile%20views&color=007bff&style=flat-square" alt="Profile Views" /> 
-    <a href="https://github.com/SntayehuAemayehu?tab=followers"><img src="https://img.shields.io/github/followers/SntayehuAemayehu?label=Followers&style=flat-square&color=007bff" alt="GitHub Followers"></a>
-  </p>
-
-  <p align="center">
-    <a href="https://linkedin.com/in/YOUR-LINKEDIN-USERNAME" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    <a href="mailto:your.email@example.com" target="_blank">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-    </a>
-    <a href="https://twitter.com/YOUR-TWITTER" target="_blank">
-      <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
-    </a>
-  </p>
-  
+  </div>
 </div>
-<!-- END OF ANIMATED SECTION -->
 
 <br/>
 
@@ -108,7 +76,7 @@ I am a passionate developer focused on building efficient and scalable solutions
 
 <br/>
 
-### 🐍 Contribution Snake (Animated)
+### 🐍 Contribution Snake
 
 <div align="center">
   <picture>
