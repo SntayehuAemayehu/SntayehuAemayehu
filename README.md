@@ -1,35 +1,39 @@
 <div align="center">
 
-<!-- 1. LARGER PROFILE PHOTO -->
-<img src="profile.jpg" alt="Sntayehu Aemayehu" width="250" style="border-radius: 50%; border: 5px solid #007bff; box-shadow: 0px 0px 20px #007bff;" />
+<!-- LARGER ANIMATED PROFILE PHOTO -->
+<!-- I increased the width to 300 and added a glowing effect -->
+<img src="profile.jpg" alt="Sntayehu Aemayehu" width="300" style="border-radius: 50%; border: 5px solid #007bff; box-shadow: 0px 0px 25px #007bff; margin-bottom: 20px;" />
 
-<!-- 2. ANIMATED TYPING HEADER -->
+<!-- ANIMATED TYPING HEADER (Fixed to not cut off) -->
 <h1 align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=007BFF&center=true&vCenter=true&width=600&lines=Hi+there,+I'm+Sntayehu+Aemayehu+👋;Software+Developer+💻;Tech+Enthusiast+🚀;Always+Learning+📚" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=007BFF&center=true&vCenter=true&width=800&lines=Hi+there,+I'm+Sntayehu+Aemayehu+👋;Software+Developer+💻;Tech+Enthusiast+🚀;Always+Learning+📚" alt="Typing SVG" />
   </a>
 </h1>
 
-<!-- 3. DYNAMIC PROFILE VIEWS & FOLLOWERS -->
+<!-- DYNAMIC PROFILE VIEWS & FOLLOWERS -->
 <p align="center"> 
-  <img src="https://komarev.com/ghpvc/?username=SntayehuAemayehu&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" /> 
-  <a href="https://github.com/SntayehuAemayehu?tab=followers"><img src="https://img.shields.io/github/followers/SntayehuAemayehu?label=Followers&style=social" alt="GitHub Followers"></a>
+  <img src="https://komarev.com/ghpvc/?username=SntayehuAemayehu&label=Profile%20views&color=0e75b6&style=flat-square" alt="Profile Views" /> 
+  <a href="https://github.com/SntayehuAemayehu?tab=followers"><img src="https://img.shields.io/github/followers/SntayehuAemayehu?label=Followers&style=flat-square&color=0e75b6" alt="GitHub Followers"></a>
 </p>
 
----
+<br/>
 
-<!-- 4. SOCIAL BADGES -->
+<!-- CONNECT WITH ME SECTION -->
+<h3 align="center">Connect with me:</h3>
 <p align="center">
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN-USERNAME">
+  <a href="https://linkedin.com/in/YOUR-LINKEDIN-USERNAME" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:your.email@example.com">
+  <a href="mailto:your.email@example.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://twitter.com/YOUR-TWITTER">
+  <a href="https://twitter.com/YOUR-TWITTER" target="_blank">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
   </a>
 </p>
+
+<hr/>
 
 </div>
 
@@ -48,7 +52,8 @@ I am a passionate developer focused on building efficient and scalable solutions
 ### 🛠️ Tech Stack & Tools
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=py,js,dart,react,nodejs,html,css,git,github,vscode,flutter,figma&perline=6" alt="Tech Stack" />
+  <!-- Added more icons to make it look fuller -->
+  <img src="https://skillicons.dev/icons?i=py,js,dart,react,nodejs,html,css,git,github,vscode,flutter,figma,postgres,mysql&perline=7" alt="Tech Stack" />
 </div>
 
 <br/>
@@ -81,9 +86,9 @@ I am a passionate developer focused on building efficient and scalable solutions
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SntayehuAemayehu/SntayehuAemayehu/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SntayehuAemayehu/SntayehuAemayehu/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/SntayehuAemayehu/SntayehuAemayehu/output/github-contribution-grid-snake.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SntayehuAemayehu/SntayehuAemayehu/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SntayehuAemayehu/SntayehuAemayehu/output/github-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/SntayehuAemayehu/SntayehuAemayehu/output/github-snake.svg" width="100%">
   </picture>
 </div>
 
