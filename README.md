@@ -2,7 +2,7 @@
 
 <!-- LARGER ANIMATED PROFILE PHOTO -->
 <!-- I increased the width to 300 and added a glowing effect -->
-<img src="profile.jpg" alt="Sntayehu Aemayehu" width="300" style="border-radius: 50%; border: 5px solid #007bff; box-shadow: 0px 0px 25px #007bff; margin-bottom: 20px;" />
+<img src="profile.jpg" alt="Sntayehu Aemayehu" width="500" style="border-radius: 50%; border: 5px solid #007bff; box-shadow: 0px 0px 25px #007bff; margin-bottom: 20px;" />
 
 <!-- ANIMATED TYPING HEADER (Fixed to not cut off) -->
 <h1 align="center">
