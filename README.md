@@ -1,46 +1,63 @@
-<div align="center">
-  <!-- ANIMATED BACKGROUND CONTAINER (Using a moving GIF) -->
-  <div style="background-image: url('https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif'); background-size: cover; background-position: center; padding: 50px 20px; border-radius: 20px; border: 2px solid #007bff; box-shadow: 0px 0px 30px rgba(0, 123, 255, 0.5);">
-    
-    <!-- YOUR PHOTO (Now a circle) -->
-    <img src="profile.jpg" alt="Sntayehu Aemayehu" width="250" style="border-radius: 50%; border: 5px solid #00D2FF; box-shadow: 0px 0px 20px #00D2FF; background: #fff;" />
+<!-- SMART ANIMATED BACKGROUND SECTION -->
+<div align="center" style="background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); padding: 40px 20px; border-radius: 20px; box-shadow: 0px 0px 30px rgba(0, 123, 255, 0.3); border: 1px solid #302b63;">
 
-    <!-- ANIMATED TYPING TEXT -->
-    <h1 align="center" style="margin-top: 20px;">
-      <a href="https://git.io/typing-svg">
-        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=32&pause=1000&color=00D2FF&center=true&vCenter=true&width=800&lines=Hi+there,+I'm+Sntayehu+Aemayehu+👋;Software+Developer+💻;Tech+Enthusiast+🚀;Always+Learning+📚" alt="Typing SVG" />
-      </a>
-    </h1>
+  <!-- ANIMATED PULSING BORDER & GLOW AROUND PHOTO -->
+  <style>
+    @keyframes pulse-glow {
+      0% { box-shadow: 0 0 0 0 rgba(0, 123, 255, 0.7); transform: scale(1); }
+      50% { box-shadow: 0 0 0 25px rgba(0, 123, 255, 0); transform: scale(1.05); }
+      100% { box-shadow: 0 0 0 0 rgba(0, 123, 255, 0); transform: scale(1); }
+    }
+    .profile-pic {
+      width: 220px; 
+      height: 220px; 
+      border-radius: 50%; 
+      object-fit: cover; 
+      border: 5px solid #007bff;
+      animation: pulse-glow 2.5s infinite;
+      background: #fff;
+    }
+  </style>
 
-    <!-- DYNAMIC BADGES -->
-    <p align="center"> 
-      <img src="https://komarev.com/ghpvc/?username=SntayehuAemayehu&label=Profile%20views&color=007bff&style=flat-square" alt="Profile Views" /> 
-      <a href="https://github.com/SntayehuAemayehu?tab=followers"><img src="https://img.shields.io/github/followers/SntayehuAemayehu?label=Followers&style=flat-square&color=007bff" alt="GitHub Followers"></a>
-    </p>
+  <!-- YOUR PHOTO -->
+  <img src="profile.jpg" alt="Sntayehu Aemayehu" class="profile-pic" />
 
-    <!-- CONNECT BUTTONS -->
-    <p align="center">
-      <a href="https://linkedin.com/in/YOUR-LINKEDIN-USERNAME" target="_blank">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-      </a>
-      <a href="mailto:your.email@example.com" target="_blank">
-        <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-      </a>
-      <a href="https://twitter.com/YOUR-TWITTER" target="_blank">
-        <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
-      </a>
-    </p>
+  <!-- ANIMATED TYPING TEXT -->
+  <h1 align="center" style="margin-top: 20px;">
+    <a href="https://git.io/typing-svg">
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=32&pause=1000&color=00D2FF&center=true&vCenter=true&width=800&lines=Hi+there,+I'm+Sntayehu+Aemayehu+👋;Software+Developer+💻;Tech+Enthusiast+🚀;Always+Learning+📚" alt="Typing SVG" />
+    </a>
+  </h1>
 
-  </div>
+  <!-- DYNAMIC BADGES -->
+  <p align="center"> 
+    <img src="https://komarev.com/ghpvc/?username=SntayehuAemayehu&label=Profile%20views&color=007bff&style=flat-square" alt="Profile Views" /> 
+    <a href="https://github.com/SntayehuAemayehu?tab=followers"><img src="https://img.shields.io/github/followers/SntayehuAemayehu?label=Followers&style=flat-square&color=007bff" alt="GitHub Followers"></a>
+  </p>
+
+  <!-- CONNECT BUTTONS -->
+  <p align="center">
+    <a href="https://linkedin.com/in/YOUR-LINKEDIN-USERNAME" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="mailto:your.email@example.com" target="_blank">
+      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    <a href="https://twitter.com/YOUR-TWITTER" target="_blank">
+      <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+    </a>
+  </p>
+
 </div>
 
 <br/>
 
+<!-- ABOUT ME SECTION -->
 ### 👨‍💻 About Me
 
 I am a passionate developer focused on building efficient and scalable solutions. I love solving problems and learning new technologies. 
 
-- 🔭 **Current Focus:** Working on **AgriLinkMobile** (Mobile App for Ethiopian Farmers) & **Dems-Backend**.
+- 🔭 **Current Focus:** Working on **AgriLinkMobile** & **Dems-Backend**.
 - 🌱 **Learning:** Advanced React, Flutter, & Cloud Architecture.
 - 👯 **Collaboration:** Open to collaborating on Open Source projects.
 - 💬 **Ask me about:** Python, Dart, JavaScript, and Web Development.
@@ -48,6 +65,7 @@ I am a passionate developer focused on building efficient and scalable solutions
 
 <br/>
 
+<!-- TECH STACK -->
 ### 🛠️ Tech Stack & Tools
 
 <div align="center">
@@ -56,11 +74,11 @@ I am a passionate developer focused on building efficient and scalable solutions
 
 <br/>
 
+<!-- DYNAMIC STATS -->
 ### 📊 Dynamic GitHub Analytics
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=SntayehuAemayehu&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" alt="Sntayehu's GitHub Stats" />
-  
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SntayehuAemayehu&layout=compact&theme=tokyonight&hide_border=true" width="48%" alt="Top Languages" />
   
   <br/><br/>
@@ -76,6 +94,7 @@ I am a passionate developer focused on building efficient and scalable solutions
 
 <br/>
 
+<!-- ANIMATED SNAKE -->
 ### 🐍 Contribution Snake
 
 <div align="center">
